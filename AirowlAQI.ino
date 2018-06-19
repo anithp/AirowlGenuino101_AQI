@@ -44,6 +44,11 @@ void loop()
                                 //calls writedata function
 }
 
+void LedColor(int red, int blue, int green){
+  analogWrite(PIN1, red);
+  analogWrite(PIN2, blue);
+  analogWrite(PIN3, green);
+  }
 
 
 void sensorDataPWM()
